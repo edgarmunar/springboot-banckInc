@@ -48,6 +48,11 @@ Swagger UI (local): [http://localhost:8080/swagger-ui/index.html](http://localho
 
 **Captura de ejemplo:**
 ![Swagger Screenshot](docs/screenshots/swagger.png)
+![Swagger Screenshot](docs/screenshots/swagger1.png)
+![Swagger Screenshot](docs/screenshots/swagger3.png)
+![Swagger Screenshot](docs/screenshots/swagger4.png)
+![Swagger Screenshot](docs/screenshots/swagger5.png)
+![Swagger Screenshot](docs/screenshots/swagger6.png)
 
 ---
 
