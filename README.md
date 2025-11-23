@@ -1,3 +1,5 @@
+# Bank Inc - API de Gestión de Tarjetas y Transacciones
+
 ````markdown
 # Bank Inc - API de Gestión de Tarjetas y Transacciones
 
@@ -66,9 +68,8 @@ Swagger UI (local): [http://localhost:8080/swagger-ui/index.html](http://localho
 
 ## Postman Collection
 
-Para probar la API, importa la colección ubicada en `/postman/BankInc.postman_collection.json`.
+Para probar la API, importa la colección ubicada en [postman/BankInc_API.postman_collection.json](postman/BankInc_API.postman_collection.json).  
 Incluye todos los endpoints con ejemplos de request y response.
-
 ---
 
 ## Manejo de errores
@@ -123,5 +124,4 @@ springboot-bankinc/
 
 Edgar Munar Villamil
 
-```
-```
+
