@@ -96,6 +96,43 @@ Ejemplos:
 
 ---
 
+
+## Base de Datos
+
+**Motor:** MySQL 8
+
+**Esquema:** Se crean las tablas automáticamente a partir de las entidades de Spring Boot (`Card` y `Transaction`) al ejecutar la aplicación.
+
+**Configuración local:**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/bankinc
+spring.datasource.username=root
+spring.datasource.password=tu_password
+spring.jpa.hibernate.ddl-auto=update
+````
+
+> Ajustar `username`, `password` y `database` según tu entorno local.
+
+**Pruebas realizadas:**
+
+* Se probó la aplicación **con MySQL local** para verificar creación, consulta, recarga y actualización de tarjetas y transacciones.
+* Se utilizaron **Postman** y la **Swagger UI** para probar todos los endpoints y verificar request/response.
+
+**Notas para el evaluador:**
+
+* Solo se necesita tener MySQL instalado y la base de datos `bankinc` disponible.
+* Todas las tablas y relaciones se crean automáticamente al iniciar la aplicación.
+
+---
+
+### Capturas de pantalla
+
+**Captura de ejemplo:**
+![Swagger Screenshot](docs/screenshots/mysql1.png)
+![Swagger Screenshot](docs/screenshots/mysql2.png)
+![Swagger Screenshot](docs/screenshots/mysql3.png)
+
 ## Notas
 
 * Validaciones de campos con **@Valid**.
